@@ -1,3 +1,5 @@
+'use strict';
+
 const modalBtn = document.querySelector(".toys-list .toys-toy .modal-button");
 const modalContainer = document.querySelector(".modal-container");
 const closeModalBtn = document.querySelector(".modal-footer button");

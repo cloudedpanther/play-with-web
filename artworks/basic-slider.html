@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Play With Web! - Basic CSS Slider(JavaScript Unused)</title>
+
+    <!-- Font Awesome  -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        <h1 class="screen-title">Play With Web!</h1>
+      </a>
+      <h2 class="author">
+        <span class="author-head">Author</span>
+        <span class="author-name">KOH YOUNG JUN</span>
+      </h2>
+    </header>
+    <div class="page-header">
+      <h3 class="page-title">Basic CSS Slider(JavaScript Unused)</h3>
+    </div>
+    <main>
+      <div class="slider-wrap">
+        <input type="radio" name="slide-button" id="slide_1" checked />
+        <input type="radio" name="slide-button" id="slide_2" />
+        <input type="radio" name="slide-button" id="slide_3" />
+
+        <ul class="slider-container">
+          <li class="slider">
+            <div class="slide-content">
+              <span class="slide-number">1</span>
+            </div>
+          </li>
+          <li class="slider">
+            <div class="slide-content">
+              <span class="slide-number">2</span>
+            </div>
+          </li>
+          <li class="slider">
+            <div class="slide-content">
+              <span class="slide-number">3</span>
+            </div>
+          </li>
+
+          <div class="slider-controller">
+            <div class="controller_1">
+              <label for="slide_3" class="slide-to-left">
+                <i class="fa-2x fas fa-chevron-left"></i>
+              </label>
+              <label for="slide_2" class="slide-to-right">
+                <i class="fa-2x fas fa-chevron-right"></i>
+              </label>
+            </div>
+            <div class="controller_2">
+              <label for="slide_1" class="slide-to-left">
+                <i class="fa-2x fas fa-chevron-left"></i>
+              </label>
+              <label for="slide_3" class="slide-to-right">
+                <i class="fa-2x fas fa-chevron-right"></i>
+              </label>
+            </div>
+            <div class="controller_3">
+              <label for="slide_2" class="slide-to-left">
+                <i class="fa-2x fas fa-chevron-left"></i>
+              </label>
+              <label for="slide_1" class="slide-to-right">
+                <i class="fa-2x fas fa-chevron-right"></i>
+              </label>
+            </div>
+          </div>
+        </ul>
+
+        <div class="slider-paging">
+          <label for="slide_1" class="page-button_1"></label>
+          <label for="slide_2" class="page-button_2"></label>
+          <label for="slide_3" class="page-button_3"></label>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

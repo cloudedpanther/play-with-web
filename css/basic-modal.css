@@ -1,60 +1,61 @@
 .modal-button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .modal-container {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    top: 0%;
-    left: 0%;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(113, 128, 147, .3);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+  left: 0%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(113, 128, 147, 0.3);
 }
 
 .modal {
-    width: 35%;
-    height: 40%;
-    background-color: white;
-    border-radius: 15px;
-    padding: 30px;
-    padding-bottom: ;
-    position: relative;
+  width: 35%;
+  height: 40%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  padding-bottom: ;
+  position: relative;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
 }
 .modal-header {
-    font-size: 24px;
-    margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 .modal-main {
-    font-size: 14px;
-    padding: 0px 10px;
-    color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  padding: 0px 10px;
+  color: rgba(0, 0, 0, 0.4);
 }
 .modal-main span {
-    line-height: 30px;
+  line-height: 30px;
 }
 .modal-footer {
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 20px 0px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px 0px;
 }
 .modal-footer button {
-    margin-right: 30px;
-    background-color: #2E86DE;
-    color: white;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 12px;
-    border-radius: 7px;
+  margin-right: 30px;
+  background-color: #2e86de;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 12px;
+  border-radius: 7px;
 }
 .modal-footer button:hover {
-    background-color: #297bce;
+  background-color: #297bce;
 }

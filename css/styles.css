@@ -1,47 +1,59 @@
-@import url('reset.css');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
-@import url('basic-modal.css');
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+@import url("basic-modal.css");
+@import url("basic-css-slider.css");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    height: 10%;
-    background-color: #54A0FF;
-    padding: 0px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: 10%;
+  background-color: #54a0ff;
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
 }
 header .screen-title {
-    font-size: 24px;
+  font-size: 24px;
 }
 header .author span {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 header .author span:first-child {
-    font-size: 14px;
+  font-size: 14px;
+}
+
+.page-header {
+  padding: 40px 100px;
+}
+.page-title {
+  font-size: 20px;
 }
 
 main {
-    padding: 0px 50px;
-    padding-top: 30px;
+  padding: 0px 50px;
 }
 main .toys-list {
-    list-style: decimal;
-    margin-left: 30px;
+  list-style: decimal;
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 30px;
 }
 main .toys-list .toys-toy {
-    margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
