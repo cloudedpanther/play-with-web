@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 @import url("basic-modal.css");
 @import url("basic-css-slider.css");
+@import url("menu.css");
 
 * {
   box-sizing: border-box;
@@ -23,6 +24,23 @@ header {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+header .header-column {
+  display: flex;
+  align-items: center;
+}
+.menu-button {
+  font-size: 24px;
+  margin-right: 30px;
+  background-color: #54a0ff;
+  border-radius: 100%;
+  padding: 10px 11.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-button:active {
+  background-color: #bad8fc;
 }
 header .screen-title {
   font-size: 24px;

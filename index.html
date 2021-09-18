@@ -7,16 +7,31 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Play With Web!</title>
 
+    <!-- Font Awesome  -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f"
+      crossorigin="anonymous"
+    ></script>
     <!-- Javascript -->
     <script defer src="js/basic-modal.js"></script>
+    <script defer src="js/menu.js"></script>
   </head>
   <body>
     <header>
-      <a href="index.html"><h1 class="screen-title">Play With Web!</h1></a>
-      <h2 class="author">
-        <span class="author-head">Author</span>
-        <span class="author-name">KOH YOUNG JUN</span>
-      </h2>
+      <div class="header-column">
+        <button class="menu-button">
+          <i class="fas fa-bars"></i>
+        </button>
+        <a href="index.html"><h1 class="screen-title">Play With Web!</h1></a>
+      </div>
+      <div class="header-column">
+        <h2 class="author">
+          <span class="author-head">Author</span>
+          <span class="author-name">KOH YOUNG JUN</span>
+        </h2>
+      </div>
     </header>
     <main>
       <!-- Make it into awesome boxes later -->
@@ -36,6 +51,18 @@
         </li>
       </ol>
     </main>
+
+    <div class="menu-container hidden">
+      <div class="menu-bar">
+        <div class="menu-header">
+          <button class="menu-button">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a href="index.html"><h1 class="screen-title">Play With Web!</h1></a>
+        </div>
+      </div>
+      <div class="menu-background"></div>
+    </div>
 
     <div class="modal-container hidden">
       <div class="modal">
